@@ -35,6 +35,54 @@ export default function Sidebar() {
               <span className="sidebarListItemText">Bookmarks</span>
           </li>
         </ul>
+        <button className="sidebarButton">Show more</button>
+        <hr className="sidebarHr"/>
+        <ul className="sidebarFriendsList">
+          <li className="sidebarFriend">
+            <img src="/assets/Profile pics/Leon prof pic.jpg" alt="" className="sidebarFriendImage" />
+            <span className="sidebarFriendName">Leon S. Kennedy</span>
+          </li>
+          <li className="sidebarFriend">
+            <img src="/assets/Profile pics/ashley prof pic.png" alt="" className="sidebarFriendImage" />
+            <span className="sidebarFriendName">Ashley Graham</span>
+          </li>
+          <li className="sidebarFriend">
+            <img src="/assets/Profile pics/safe_user prof pic.png" alt="" className="sidebarFriendImage" />
+            <span className="sidebarFriendName">John Doe</span>
+          </li>
+          <li className="sidebarFriend">
+            <img src="/assets/Profile pics/second_user prof pic.png" alt="" className="sidebarFriendImage" />
+            <span className="sidebarFriendName">Number 2</span>
+          </li>
+          <li className="sidebarFriend">
+            <img src="/assets/Profile pics/Leon prof pic.jpg" alt="" className="sidebarFriendImage" />
+            <span className="sidebarFriendName">Leon S. Kennedy</span>
+          </li>
+          <li className="sidebarFriend">
+            <img src="/assets/Profile pics/Leon prof pic.jpg" alt="" className="sidebarFriendImage" />
+            <span className="sidebarFriendName">Leon S. Kennedy</span>
+          </li>
+          <li className="sidebarFriend">
+            <img src="/assets/Profile pics/Leon prof pic.jpg" alt="" className="sidebarFriendImage" />
+            <span className="sidebarFriendName">Leon S. Kennedy</span>
+          </li>
+          <li className="sidebarFriend">
+            <img src="/assets/Profile pics/Leon prof pic.jpg" alt="" className="sidebarFriendImage" />
+            <span className="sidebarFriendName">Leon S. Kennedy</span>
+          </li>
+          <li className="sidebarFriend">
+            <img src="/assets/Profile pics/Leon prof pic.jpg" alt="" className="sidebarFriendImage" />
+            <span className="sidebarFriendName">Leon S. Kennedy</span>
+          </li>
+          <li className="sidebarFriend">
+            <img src="/assets/Profile pics/Leon prof pic.jpg" alt="" className="sidebarFriendImage" />
+            <span className="sidebarFriendName">Leon S. Kennedy</span>
+          </li>
+          <li className="sidebarFriend">
+            <img src="/assets/Profile pics/Leon prof pic.jpg" alt="" className="sidebarFriendImage" />
+            <span className="sidebarFriendName">Leon S. Kennedy</span>
+          </li>
+        </ul>
       </div>
     </div>
   )
