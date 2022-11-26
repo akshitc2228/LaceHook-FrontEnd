@@ -1,6 +1,6 @@
 .sidebar {
     flex: 2;
-    height: calc(100vh-50px); /* calc is useful when finding difference between components that use different units of measurement*/
+    height: calc(100vh - 50px); /* calc is useful when finding difference between components that use different units of measurement*/
     overflow-y: scroll;
 }
 
