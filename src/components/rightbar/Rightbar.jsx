@@ -1,4 +1,6 @@
 import "./rightbar.css";
+import {Users} from "../../dummyData"
+import Online from "../online/Online";
 
 export default function Rightbar() {
   return (
@@ -13,41 +15,9 @@ export default function Rightbar() {
         </div>
         <h4 className="onlineFriends">Friends online</h4>
         <ul className="rightbarFriendslist">
-          <li className="rightbarFriend">
-            <div className="friendImgContainer">
-              <img src="/assets/Profile pics/ashley prof pic.png" alt="" className="friendProfImg" />
-              <span className="onlineStatus"></span>
-            </div>
-            <span className="rightbarFriendUsername">Ashley Graham</span>
-          </li>
-          <li className="rightbarFriend">
-            <div className="friendImgContainer">
-              <img src="/assets/Profile pics/Leon prof pic.jpg" alt="" className="friendProfImg" />
-              <span className="onlineStatus"></span>
-            </div>
-            <span className="rightbarFriendUsername">Leon S. Kennedy</span>
-          </li>
-          <li className="rightbarFriend">
-            <div className="friendImgContainer">
-              <img src="/assets/Profile pics/ashley prof pic.png" alt="" className="friendProfImg" />
-              <span className="onlineStatus"></span>
-            </div>
-            <span className="rightbarFriendUsername">Ashley Graham</span>
-          </li>
-          <li className="rightbarFriend">
-            <div className="friendImgContainer">
-              <img src="/assets/Profile pics/ashley prof pic.png" alt="" className="friendProfImg" />
-              <span className="onlineStatus"></span>
-            </div>
-            <span className="rightbarFriendUsername">Ashley Graham</span>
-          </li>
-          <li className="rightbarFriend">
-            <div className="friendImgContainer">
-              <img src="/assets/Profile pics/ashley prof pic.png" alt="" className="friendProfImg" />
-              <span className="onlineStatus"></span>
-            </div>
-            <span className="rightbarFriendUsername">Ashley Graham</span>
-          </li>
+          {Users.map(u => (
+            <Online key={u.id} user ={u}/>
+          ))}
         </ul>
       </div>
     </div>

@@ -3,53 +3,53 @@
 export const Users = [
   {
     id: 1,
-    profilePicture: "assets/person/1.jpeg",
-    username: "Safak Kocaoglu",
+    profilePicture: "assets/Profile pics/1.jpg",
+    username: "Chris Redfield",
   },
   {
     id: 2,
-    profilePicture: "assets/person/2.jpeg",
-    username: "Janell Shrum",
+    profilePicture: "assets/Profile pics/2.jpg",
+    username: "Barry Burton",
   },
   {
     id: 3,
-    profilePicture: "assets/person/3.jpeg",
-    username: "Alex Durden",
+    profilePicture: "assets/Profile pics/3.jpg",
+    username: "Claire Redfield",
   },
   {
     id: 4,
-    profilePicture: "assets/person/4.jpeg",
-    username: "Dora Hawks",
+    profilePicture: "assets/Profile pics/ada prof pic.jpg",
+    username: "Ada Wong",
   },
   {
     id: 5,
-    profilePicture: "assets/person/5.jpeg",
-    username: "Thomas Holden",
+    profilePicture: "assets/Profile pics/Leon prof pic.jpg",
+    username: "Leon S. Kennedy",
   },
   {
     id: 6,
-    profilePicture: "assets/person/6.jpeg",
-    username: "Shirley Beauchamp",
+    profilePicture: "assets/Profile pics/ashley prof pic.png",
+    username: "Ashley Graham",
   },
   {
     id: 7,
-    profilePicture: "assets/person/7.jpeg",
-    username: "Travis Bennett",
+    profilePicture: "assets/Profile pics/7.jpg",
+    username: "Jill Valentine",
   },
   {
     id: 8,
-    profilePicture: "assets/person/8.jpeg",
-    username: "Kristen Thomas",
+    profilePicture: "assets/Profile pics/8.jpg",
+    username: "Ethan Winters",
   },
   {
     id: 9,
-    profilePicture: "assets/person/9.jpeg",
-    username: "Gary Duty",
+    profilePicture: "assets/Profile pics/9.jpg",
+    username: "Albert Wesker",
   },
   {
     id: 10,
-    profilePicture: "assets/person/10.jpeg",
-    username: "Safak Kocaoglu",
+    profilePicture: "assets/Profile pics/8.jpg",
+    username: "Ethan Winters",
   },
 ];
 
@@ -65,7 +65,7 @@ export const Posts = [
   },
   {
     id: 2,
-    desc: "Real estate needs to do a lotta work on this one",
+    desc: "Residence of evil",
     photo: "assets/posts/2.jpeg",
     date: "15 mins ago",
     userId: 2,
@@ -83,7 +83,7 @@ export const Posts = [
   },
   {
     id: 4,
-    desc: "That's gonna be a lot of paperwork for the RPD today",
+    desc: "Who even took this photo?!",
     photo: "assets/posts/4.jpeg",
     date: "4 hours ago",
     userId: 4,
