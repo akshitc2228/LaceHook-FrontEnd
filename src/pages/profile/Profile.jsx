@@ -11,10 +11,27 @@ export default function Profile() {
       <div className="profile">
         <Sidebar />
         <div className="profileRight">
-          <div className="profileRightTop">sample</div>
+          <div className="profileRightTop">
+            <div className="profileCover">
+              <img
+                src="assets/posts/ada cover.jpg"
+                alt=""
+                className="profileCoverImg"
+              />
+              <img
+                src="assets/Profile pics/ada prof pic.jpg"
+                alt=""
+                className="profileUserImg"
+              />
+            </div>
+            <div className="profileInfo">
+              <h4 className="profileInfoName">Ada Wong</h4>
+              <span className="profileInfoDescription">If it ain't Wong, it's wrong</span>
+            </div>
+          </div>
           <div className="profileRightBottom">
             <Feed />
-            <Rightbar />
+            <Rightbar profile/> {/* the word profile indicates that the component will be used in the profile page and not the default homepage */}
           </div>
         </div>
       </div>
