@@ -53,7 +53,7 @@ export default function Rightbar({ profile }) {
           </div>
           <div className="followedUser">
             <img src="assets/Profile pics/umbrella.jpg" alt="" className="followedUserImg" />
-            <span className="followedUserName">Umbrella corporation</span>
+            <span className="followedUserName">Umbrella corp.</span>
           </div>
           <div className="followedUser">
             <img src="assets/Profile pics/simmons.jpg" alt="" className="followedUserImg" />

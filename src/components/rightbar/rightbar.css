@@ -65,7 +65,7 @@
 
 .followedUser {
     display: flex;
-    font-display: column;
+    flex-direction: column;
     margin-bottom: 20px;
     cursor: pointer;
 }
